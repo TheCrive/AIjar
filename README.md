@@ -11,15 +11,7 @@ Zero Dipendenze Esterne (Opzionale): Possibilità di parsing JSON manuale senza 
 Gestione Systemd: Configurazione per avvio automatico e logging
 
 Architettura
-udpchat/
-├── src/
-│   ├── UdpClient.java          # Client UDP per comunicazione di rete
-│   ├── ChatBotService.java     # Servizio per integrazione AI
-│   ├── ChatController.java     # Controller logica business
-│   ├── App.java                # Applicazione JavaFX principale
-│   ├── HeaderView.java         # Componente UI header con indicatori stato
-│   └── HttpClient.java         # Client HTTP per API llama-server
-Flusso Dati
+
 
 L'utente invia un messaggio tramite l'UI JavaFX
 ChatController gestisce l'input e lo inoltra a ChatBotService
