@@ -1,7 +1,7 @@
 # 🤖 AIjar - AI-Powered Chat System
 
 <p align="center">
-  <img src="docs/images/logo.png" alt="UDPChat Logo" width="200"/>
+  <img src="docs/images/logo.png" alt="AIjar Logo" width="200"/>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 AIjar è un sistema di chat completo che combina programmazione di rete UDP con intelligenza artificiale locale. Il progetto integra un server Java con llama.cpp per fornire risposte AI in tempo reale attraverso un'interfaccia JavaFX moderna e reattiva.
 
-### Perché UDPChat?
+### Perché AIjar?
 
 - **Privacy First**: I modelli AI girano localmente sul tuo server, nessun dato viene inviato a servizi esterni
 - **Bassa Latenza**: Il protocollo UDP garantisce comunicazioni veloci e efficienti
@@ -62,7 +62,7 @@ AIjar è un sistema di chat completo che combina programmazione di rete UDP con 
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                              ARCHITETTURA UDPCHAT                            │
+│                              ARCHITETTURA AIjar                            │
 └─────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────┐         UDP          ┌─────────────────┐
@@ -113,7 +113,7 @@ AIjar è un sistema di chat completo che combina programmazione di rete UDP con 
 ### Struttura del Progetto
 
 ```
-UDPChat/
+AIjar/
 ├── 📁 src/
 │   ├── 📄 App.java                 # Entry point JavaFX, gestione UI principale
 │   ├── 📄 ChatController.java      # Controller logica business e gestione messaggi
@@ -453,11 +453,11 @@ Scarica e installa:
 
 ```bash
 # Clone repository
-git clone https://github.com/tuousername/UDPChat.git
-cd UDPChat
+git clone https://github.com/TheCrive/AIjar.git
+cd AIjar
 
 # Struttura attesa
-# UDPChat/
+# AIjar/
 # ├── src/
 # ├── lib/
 # │   ├── javafx/lib/
@@ -481,7 +481,7 @@ private static final String LLAMA_API_URL = "http://tuo-server-ip:8080";
 **Windows (build.bat):**
 ```batch
 @echo off
-echo Compilazione UDPChat...
+echo Compilazione AIjar...
 javac --module-path "lib\javafx\lib" ^
       --add-modules javafx.controls,javafx.fxml ^
       -cp "bin;lib\jackson\*" ^
@@ -493,7 +493,7 @@ echo Compilazione completata!
 **Linux/macOS (build.sh):**
 ```bash
 #!/bin/bash
-echo "Compilazione UDPChat..."
+echo "Compilazione AIjar..."
 javac --module-path "lib/javafx/lib" \
       --add-modules javafx.controls,javafx.fxml \
       -cp "bin:lib/jackson/*" \
@@ -673,7 +673,7 @@ run.bat
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
 │  ┌─────────────────────────────────────────────────────────────┐    │
-│  │  🤖 UDPChat           Llama-3.2-1B      ● Online            │    │
+│  │  🤖 AIjar           Llama-3.2-1B      ● Online            │    │
 │  └─────────────────────────────────────────────────────────────┘    │
 │                                                                      │
 │  ┌─────────────────────────────────────────────────────────────┐    │
