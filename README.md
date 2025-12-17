@@ -1,4 +1,4 @@
-# 🤖 UDPChat - AI-Powered Chat System
+# 🤖 AIjar - AI-Powered Chat System
 
 <p align="center">
   <img src="docs/images/logo.png" alt="UDPChat Logo" width="200"/>
@@ -22,7 +22,7 @@
 
 ## 📋 Panoramica
 
-UDPChat è un sistema di chat completo che combina programmazione di rete UDP con intelligenza artificiale locale. Il progetto integra un server Java con llama.cpp per fornire risposte AI in tempo reale attraverso un'interfaccia JavaFX moderna e reattiva.
+AIjar è un sistema di chat completo che combina programmazione di rete UDP con intelligenza artificiale locale. Il progetto integra un server Java con llama.cpp per fornire risposte AI in tempo reale attraverso un'interfaccia JavaFX moderna e reattiva.
 
 ### Perché UDPChat?
 
