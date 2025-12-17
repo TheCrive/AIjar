@@ -1126,8 +1126,8 @@ SOFTWARE.
 ## 📞 Contatti
 
 - **Autore**: Filippo
-- **GitHub**: [@tuousername](https://github.com/tuousername)
-- **Email**: tua@email.com
+- **GitHub**: [@TheCrive](https://github.com/TheCrive)
+- **Email**: crivellarifilippo7gmail.com
 
 ---
 
