@@ -28,7 +28,7 @@ AIjar è un sistema di chat completo che combina programmazione di rete UDP con 
 
 - **Privacy First**: I modelli AI girano localmente sul tuo server, nessun dato viene inviato a servizi esterni
 - **Bassa Latenza**: Il protocollo UDP garantisce comunicazioni veloci e efficienti
-- **Completamente Personalizzabile**: Scegli il modello AI che preferisci tra decine di opzioni GGUF
+- **Completamente Personalizzabile**: Scegli il modello AI che preferisci tra centinaia di opzioni GGUF
 - **Open Source**: Codice completamente accessibile e modificabile
 
 ---
