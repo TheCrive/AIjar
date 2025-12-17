@@ -52,7 +52,7 @@ AIjar è un sistema di chat completo che combina programmazione di rete UDP con 
 - **Cambio Modello Runtime**: Possibilità di cambiare modello AI senza riavviare l'applicazione
 - **Comandi Speciali**: Sistema di comandi integrato (`/models`, `/model`, `/help`, `status`)
 - **JSON Processing**: Parsing robusto con libreria Jackson
-- **Cross-Platform**: Client compatibile con Windows, macOS e Linux
+- **Cross-Platform**: Client compatibile con Windows e Linux
 
 ---
 
@@ -98,10 +98,10 @@ AIjar è un sistema di chat completo che combina programmazione di rete UDP con 
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
 │  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
-│  │   App.java   │───►│ ChatController│──►│ChatBotService│       │
-│  │  (JavaFX UI) │    │  (Business)  │    │   (Network)  │       │
+│  │   App.java   │───►│ChatController│───►│ChatBotService│       │
+│  │  (JavaFX UI) │    │  (Gestione)  │    │   (Network)  │       │
 │  └──────────────┘    └──────────────┘    └──────┬───────┘       │
-│                                                  │              │
+│                                                 │               │
 │  ┌──────────────┐    ┌──────────────┐           │               │
 │  │ HeaderView   │    │  HttpClient  │◄──────────┘               │
 │  │(Status/Model)│    │ (Health API) │                           │
@@ -116,7 +116,7 @@ AIjar è un sistema di chat completo che combina programmazione di rete UDP con 
 AIjar/
 ├── 📁 src/
 │   ├── 📄 App.java                 # Entry point JavaFX, gestione UI principale
-│   ├── 📄 ChatController.java      # Controller logica business e gestione messaggi
+│   ├── 📄 ChatController.java      # Controller logica e gestione messaggi
 │   ├── 📄 ChatBotService.java      # Servizio integrazione AI e comunicazione UDP
 │   ├── 📄 UdpClient.java           # Client UDP per invio/ricezione pacchetti
 │   ├── 📄 HttpClient.java          # Client HTTP per API llama-server
@@ -167,8 +167,8 @@ AIjar/
     │  UTENTE │────►│   App.java   │────►│ChatController │────►│  ChatBot │
     │ (Input) │     │   (UI Event) │     │  (Validate)   │     │ Service  │
     └─────────┘     └──────────────┘     └───────────────┘     └────┬─────┘
-                                                                     │
-                    ┌──────────────────────────────────────────────┘
+                                                                    │
+                    ┌───────────────────────────────────────────────┘
                     │
                     ▼
     ┌───────────────────┐     ┌─────────────────┐     ┌─────────────────┐
